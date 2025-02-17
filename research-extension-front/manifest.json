@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Research Assistant",
+    "version": "1.0",
+    "description": "An AI-powered research assistant to summarize and suggest content from web pages.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["http://localhost:8080/"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/icon.png"
+    },
+    "icons": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  }
